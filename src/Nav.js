@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Nav.css";
 
 function Nav() {
@@ -19,7 +19,7 @@ function Nav() {
     <div className={`nav ${show && "nav__black"}`}>
       <img
         className="nav__logo"
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/800px-Netflix_2015_logo.svg.png"
+        src="https://www.freepnglogos.com/uploads/netflix-logo-0.png"
         alt="Netflix Logo"
       />
 
